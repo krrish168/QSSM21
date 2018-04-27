@@ -17,7 +17,7 @@ public class ImplicitWait
 	public static void main(String[] args)
 	{
 		WebDriver driver=new FirefoxDriver();
-		//WebDriver driver=new ChromeDriver();
+		//WebDriver driver=new ChromeDriver(); //to launch chrome browserr
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://online.actitime.com/qsp3/login.do");
